@@ -1,0 +1,92 @@
+# oibsip_taskno-2
+*{
+    box-sizing: border-box;
+}
+.comp{
+    background-color: rgba(223, 225, 219, 0.246);
+}
+.row{
+    border: none 1px rgb(240, 246, 240);
+    height:400px;
+    display: flex;
+   
+    
+
+}
+.row a{
+    padding-left: 30px;
+}
+.col{
+    border: none 1px  rgb(1, 33, 45);
+    display:inline-block;
+    /* background-color: rgb(231, 27, 27);  */
+    height: 100%;
+    width: 15%;
+
+}
+.col1{
+    border: none 1px  rgb(1, 33, 45);
+    display:inline-block;
+    /* background-color: rgb(231, 27, 27);  */
+    height: 100%;
+    width: 15%;
+}
+
+.col2{
+    border: none 1px  rgb(1, 33, 45);
+    display:inline-block;
+    /* background-color: rgb(231, 27, 27);  */
+    height: 100%;
+    width: 26%;
+
+}
+.col3{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+img{
+    border: 14px solid #ddd;
+    width: 295px;
+    border-radius: 144px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 90px;
+  }
+  /* Footer */
+.footer {
+    background-color: #333333;
+    font-size: 20px;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+.footer-CS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-S {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-S {
+        width: 100%;
+    }
+}
+
+.footer-S a {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #a9a9a9;
+}
